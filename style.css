@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin:  0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: grey;
+    
+    /* height: ; */
+}
+.navbuttons ul {
+    list-style: none;
+    margin:  0;
+    padding: 0;
+    display: flex;
+}
+.navbuttons li {
+    margin: 1rem;
+}
+section {
+    height: 100vh;
+}
+section .about{
+    background-color: blue;
+}
+footer {
+height: 40vh;
+background-color: black;
+}
+
