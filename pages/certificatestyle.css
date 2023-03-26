@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin:  0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #333;
+    
+    /* height: ; */
+}
+.navbuttons ul {
+    list-style: none;
+    margin:  0;
+    padding: 0;
+    display: flex;
+}
+.navbuttons li {
+    margin: 1rem;
+    color: orange;
+    size: 40px;
+    ;
+}
+.navbar li a{
+    text-decoration: none;
+    color: orange;
+}
+section {
+    height: 100vh;
+}
+.jscertificate{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/js\ certified.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.google{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/googlecertificate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.reactcertificate{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/My\ react\ certificate.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.downloads{
+    padding: 30px;
+    height: 50vh;
+    background-color:rgb(114, 121, 136);
+}
+.about{
+    top: 30%;
+    display: flex;
+    padding: 20px;
+    /* adding image background? */
+   
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/homebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    width: auto;
+    box-sizing:content-box;
+
+      
+}
+.about_div{
+padding: 10px;
+justify-content: center;
+text-align: left;
+font-size: large;
+height: 100%;
+}
+strong{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    left: 40%;
+    padding-bottom: 10px;
+}
+footer {
+position: relative;
+height: 40vh;
+background-color: black;
+color: white;
+display: flex;
+}
+.contacts{
+    width: 50%;
+    /* padding: 20px; */
+    text-decoration: none;
+    border-right: solid;
+    border-color: white;
+    
+}
+.contacts ul li{
+    text-decoration: none;
+    padding: 5px;
+}
+.copyrights{
+    padding: 10px;
+}
+footer a{
+    color: white;
+    /* text-decoration: none; */
+}
+
+

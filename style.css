@@ -50,7 +50,7 @@ padding: 10px;
 justify-content: center;
 text-align: center;
 font-size: large;
-height: 50%;
+height: 20%;
 overflow: hidden;
 
 
@@ -66,13 +66,19 @@ overflow: hidden;
     border-color: white;
 }
 .cv{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
-    position: relative;
+    /* position: relative; */
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(201, 195, 195, 0.5)), url("images/cvbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    align-items: center;
+    position: relative;
+}
+.btn_description {
+    text-align: center;
+    padding: 10%;
 }
 
 /* Styles for the button */
@@ -84,17 +90,14 @@ overflow: hidden;
     border-radius: 5px; /* adds rounded corners */
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16); /* adds a subtle box shadow */
     cursor: pointer; /* changes the cursor on hover to indicate the button is clickable */
+    left: 40%;
     position: absolute;
-    top: 50%;
+
   }
   
   /* Styles for the button on hover */
   #download_cv:hover {
     background-color: black;
-    width: 300px;
-    height: 100px;
-    transition: all 0.5s ease;
-    font-size: x-large;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
 .projects{
@@ -118,6 +121,7 @@ overflow: hidden;
     transition: all 0.5s ease;
 }
 footer {
+position: relative;
 height: 40vh;
 background-color: black;
 color: white;
@@ -125,11 +129,28 @@ display: flex;
 }
 .contacts{
     width: 50%;
+    /* padding: 20px; */
+    text-decoration: none;
+    border-right: solid;
+    border-color: white;
+    
+}
+.contacts ul li{
+    text-decoration: none;
+    padding: 5px;
 }
 .copyrights{
-    border-right: white;
-    border-style: solid;
-    border-width: 1px;
+    padding: 10px;
+}
+.description{
+    /* display: none; */
+    align-items: center;
+    
+}
+footer a{
+    text-decoration: none;
+
+    color: white;
 }
 
 
