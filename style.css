@@ -52,12 +52,13 @@ section {
       
 }
 .about_div{
-    margin-top: 50px;
+width: 100%;
+margin-top: 100px;
 padding: 40px;
 justify-content: center;
 text-align: center;
 font-size: large;
-height: 20%;
+height: 10%;
 overflow: hidden;
 
 
