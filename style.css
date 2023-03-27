@@ -9,6 +9,7 @@
     background-color: #333;
     position: fixed;
     width: 100%;
+    z-index: 999;
     /* height: ; */
 }
 .navbuttons ul {
@@ -100,6 +101,7 @@ overflow: hidden;
     cursor: pointer; /* changes the cursor on hover to indicate the button is clickable */
     left: 40%;
     position: absolute;
+    /* z-index: 0; */
 
   }
   
@@ -115,7 +117,7 @@ overflow: hidden;
     background-position: center center;
 }
 .project_list{
-    padding-top: 20px;
+    padding-top: 10px;
     display: flex;
     height: 75px;
     text-decoration: none;
