@@ -96,14 +96,8 @@ display: flex;
     align-items: center;
     
 }
-table{
-    background-color: gray;
-    width: 300%;
-    height: 90%;
-}
-td, th {
-    border: 1px solid black;
-  }
+
+
   
   
 
