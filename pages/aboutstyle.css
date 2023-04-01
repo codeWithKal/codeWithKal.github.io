@@ -58,6 +58,7 @@ height: 40vh;
 background-color: black;
 color: white;
 display: flex;
+bottom: 0;
 }
 .contacts{
     width: 50%;

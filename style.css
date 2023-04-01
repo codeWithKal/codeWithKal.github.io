@@ -36,8 +36,7 @@
 section {
     height: 100vh;
 }
-.about{
-    top: 30%;
+#about{
     display: flex;
     padding: 20px;
     /* adding image background? */
@@ -47,8 +46,12 @@ section {
     background-size: cover;
     background-position: center center;
     color: white;
-    width: auto;
     box-sizing:content-box;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
 
       
 }
@@ -69,7 +72,7 @@ overflow: hidden;
     transition: all 1s ease;
     visibility: visible;
     color: rgb(244, 235, 235);
-    height: 70%;
+    height: 100%;
     border-left: solid;
     border-right: solid;
     border-color: white;
@@ -132,7 +135,7 @@ overflow: hidden;
 }
 footer {
 position: relative;
-height: 40vh;
+height: 50vh;
 background-color: black;
 color: white;
 display: flex;
@@ -162,5 +165,30 @@ footer a{
 
     color: white;
 }
+.nav-link{
+    margin-right: 20px;
+}
+li{
+    list-style: none;
+}
+@media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+    .about_div{
+        margin: 0;
+    }
+    .more{
+        display: none;
+    }
+    .more:hover{
+        display: block;
+    }
+    #about{
+        position: relative;
+        top: 30px;
+    }
+  }
 
 

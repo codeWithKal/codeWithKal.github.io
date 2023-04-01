@@ -7,74 +7,90 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-EXAMPLE-CODE" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-lhT83T1vL62aBY6UzY6UqZ6Hmqs6+P/BO/Bm+oFJGw8Ll15kh1DZBkfmlZzYbxo8PvN9eOot/yfzyhvwjwgfQA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <title>kaleab girma's profile</title>
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <div class="logo">
-                <img src="images/logo.jpg" alt="kaleab's pic" width="75" height="75">
-            </div>
-            <div class="navbuttons">
-                <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/pages/about.html">About Me</a></li>
-                    <li><a href="/pages/certification.html">Certifications</a></li>
-                    <li><a href="/images/kaleab_cv.pdf" download>
-                        Download CV/RESUME
-                    </a></li>
-                    <li><a href="/pages/project.html">Projects</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-0 fixed-top">
+            <div class="container-fluid justify-content-right">
+              <a class="navbar-brand" href="/index.html"><img src="/images/logo.jpg" width = 75px alt="kal's pic"></a>
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ms-auto justify-content-around">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/about.html">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/certification.html">Certifications</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="/images/kaleab_cv.pdf" download>
+                        Download CV/RESUME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/projects.html">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacts">Contacts</a>
+                  </li>  
                 </ul>
+              </div>
             </div>
-        </div>
+          </nav>
     </header>
-    <section class="about">
+    <section class="container d-flex" id="about" >
           <div class="about_div">
-            <strong>Biography</strong>
+            <strong class="title">Biography</strong>
             <br>
             <hr>
             <br>
-            <p>I was born in a small village called <em>Aleltu</em> which is 55 km from Addis Ababa, Ethiopia. My father's name is Shiferaw Girma and my Mother's name is Tsige Demissie. They're both supporting for me. I have four lovely siblings of which three of them are my sisters and one of them is my little brother. I do love them so much.</p>
-            <button class="read_more"><a href="/pages/biography.html">Read More</a></button>
+            <p class="more">I was born in a small village called <em>Aleltu</em> which is 55 km from Addis Ababa, Ethiopia. My father's name is ...</p>
+            <button class="btn btn-dark"><a class="btn text-light" href="/pages/biography.html">Read More</a></button>
 
           </div>
           <div class="about_div">
-            <strong>Acheivments</strong>
+            <strong class="title">Acheivments</strong>
             <br>
             <hr>
             <br>
-            <p>I've have been tough student since I was grade one student and stood first from my class till I join college. through out this this journey I could earn a number of recognitions and school awards. <br>
-                Till I reach to grade, 4 I could...</p>
-            <button class="read_more"><a href="/pages/acheivments.html">Read More</a></button>
+            <p class="more">I've have been tough student since I was grade one student and stood first from my class ...</p>
+            <button class="btn btn-dark"><a class="btn text-light"href="/pages/acheivments.html">Read More</a></button>
           </div>
           <div class="about_div">
-            <strong>Values & life purpose</strong>
+            <strong class="title">Values & life purpose</strong>
             <br>
             <hr>
             <br>
-            <p>
-                I believe that we all exist in this world for a reason and we should all pursue and find that reaseon. Had it been there is no reason for our existance, God won't be tired of giving his purest love for us and all the visible world ain't mean nothing at all...
+            <p class="more">
+                I believe that we all exist in this world for a reason and we should all pursue and find that ...
             </p>
-            <button class="read_more"><a href="/pages/values.html">Read More</a></button>
+            <button class="btn btn-dark"><a class="btn text-light"href="/pages/values.html">Read More</a></button>
           </div>
           <div class="about_div">
-            <strong>Schools Attended</strong>
+            <strong class="title">Schools Attended</strong>
             <br>
             <hr>
             <br>
-            <p>
+            <p class="more">
                 here are list of schools I've been enrolled in.
             </p>
-            <button class="read_more"><a href="/pages/schools.html">See List of Schools</a></button>
+            <button class="btn btn-dark"><a class="btn text-light"href="/pages/schools.html">See List of Schools</a></button>
           </div>
           <div class="about_div">
-            <strong>Skills</strong>
+            <strong class="title">Skills</strong>
             <br>
             <hr>
             <br>
-            <ul>
+            <ul class="more">
                 <li>c</li>
                 <li>c++</li>
                 <li>java</li>
@@ -82,7 +98,7 @@
                 <li>bash</li>
                 ...
             </ul>
-            <button class="read_more"><a href="/pages/about.html#tech-stack">see my full tech stack</a></button>
+            <button class="btn btn-dark"><a class="btn text-light" href="/pages/about.html#tech-stack">see my full tech stack</a></button>
           </div>
 
     </section>
